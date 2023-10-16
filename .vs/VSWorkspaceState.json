@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\docs",
+    "\\src",
+    "\\src\\images",
+    "\\src\\views",
+    "\\src\\views\\chat",
+    "\\src\\views\\chat\\components",
+    "\\src\\views\\chat\\components\\Header",
+    "\\src\\views\\chat\\layout",
+    "\\src\\views\\chat\\layout\\sider"
+  ],
+  "SelectedNode": "\\src\\images",
+  "PreviewInSolutionExplorer": false
+}
