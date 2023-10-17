@@ -498,11 +498,8 @@
 							</p>
 						</div>
 						<div class="image-container">
-							<!--<img src="/images/zifubao.jpg" alt="支付宝" width="200" height="100"/>-->
-							<!--<img src="/images/weixing.jpg" alt="微信" width="200" height="100" />-->
 							<img src="/images/zfb.png" alt="支付宝" />
-							<img src="/images/wx.png" alt="微信" />
-							<img src="/images/zsm.jpg" alt="微信" />
+							<img src="/images/wx_zsm.png" alt="微信" />
 						</div>
 					</template>
 					<template v-else>

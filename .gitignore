@@ -31,3 +31,5 @@ coverage
 # Environment variables files
 /service/.env
 *.vsidx
+*.sqlite
+.vs/chat-web/v17/.wsuo
