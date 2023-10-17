@@ -133,3 +133,31 @@ html.dark {
 		}
 	}
 }
+
+/* 定义容器样式 */
+.image-container {
+	display: flex; /* 使用弹性盒子布局 */
+	flex-wrap: wrap; /* 允许换行 */
+	align-items: center; /* 垂直居中对齐图片 */
+	justify-content: center; /* 水平居中对齐图片 */
+}
+
+/* 定义图片样式 */
+.image-container img {
+	border: 1px solid gray; /* 边框样式为1像素灰色边框 */
+	border-radius: 10px; /* 边框圆角为10像素 */
+	margin: 5px; /* 图片间距为5像素 */
+	width: 180px; /* 图片宽度为100像素 */
+	height: 180px; /* 图片宽度为100像素 */
+}
+
+/* 媒体查询 - 在小屏幕上设置图片宽度为50% */
+@media (max-width: 600px) {
+	.image-container img {
+		width: 50%;
+	}
+/*手机端隐藏支付宝图片*/
+	.image-container img[src*="zfb"] {
+		display: none;
+	}
+}

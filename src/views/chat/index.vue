@@ -483,9 +483,13 @@ onUnmounted(() => {
               <!--<SvgIcon icon="ri:bubble-chart-fill" class="mr-2 text-3xl" />-->
               <p>当您使用本站进行学习和测试时，请确保您可以正常使用网站。如果您觉得网站对您有所帮助，并且您已经长时间使用并觉得不错的话，欢迎考虑捐赠！虽然网站是完全免费的，但即使没有捐赠，站长也会自己承担网站运营成本！您可以根据自己的情况捐赠任意金额，多少都可以！<br />PS: 所有捐赠将用于维护网站运行</p>
             </div>
-            <div style="text-align: center;">
-              <img src="/images/weixing.png" alt="微信" style="display: inline-block; width: 220px; margin-right: 5px;" />
-              <img src="/images/zifubao.jpg" alt="支付宝" style="display: inline-block; width: 220px; margin-left: 5px;" />
+            
+            <div class="image-container">
+              <!--<img src="/images/zifubao.jpg" alt="支付宝" width="200" height="100"/>-->
+              <!--<img src="/images/weixing.jpg" alt="微信" width="200" height="100" />-->
+              <img src="/images/zfb.png" alt="支付宝" />
+              <img src="/images/wx.png" alt="微信" />
+              <img src="/images/zsm.jpg" alt="微信" />
             </div>
           </template>
           <template v-else>
