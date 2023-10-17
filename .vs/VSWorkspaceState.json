@@ -2,7 +2,11 @@
   "ExpandedNodes": [
     "",
     "\\images",
-    "\\service"
+    "\\service",
+    "\\src",
+    "\\src\\views",
+    "\\src\\views\\chat"
   ],
+  "SelectedNode": "\\images\\wx.png",
   "PreviewInSolutionExplorer": false
 }
