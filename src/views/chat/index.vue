@@ -475,32 +475,9 @@
 						 class="w-full max-w-screen-xl m-auto dark:bg-[#101014]"
 						 :class="[isMobile ? 'p-2' : 'p-4']">
 					<template v-if="!dataSources.length">
-						<div class="flex items-center justify-center mt-4 text-center text-neutral-300">
-							<!--<SvgIcon icon="ri:bubble-chart-fill" class="mr-2 text-3xl" />-->
-							<p>当您使用本站进行学习和测试时，请确保您可以正常使用网站。如果您觉得网站对您有所帮助，并且您已经长时间使用并觉得不错的话，欢迎考虑捐赠！虽然网站是完全免费的，但即使没有捐赠，站长也会自己承担网站运营成本！您可以根据自己的情况捐赠任意金额，多少都可以！<br />PS: 所有捐赠将用于维护网站运行</p>
-						</div>
-						<div class="p-2 space-y-2 rounded-md bg-neutral-100 dark:bg-neutral-700">
-							<p>
-								禁止发布、传播任何违法、违规内容，使用本网站，视您接受并同意
-								<a class="text-blue-600 dark:text-blue-500"
-									 href="https://ca6ssmq5g6hbkhm7c3qg.baseapi.memfiredb.com/storage/v1/object/public/xiamu/WebsiteDisclaimer.html"
-									 target="_blank">
-									《免责声明》
-								</a>
-							</p>
-							<p>
-								为了防止失联请收藏最新地址：
-								<a class="text-blue-600 dark:text-blue-500"
-									 href="https://ca6ssmq5g6hbkhm7c3qg.baseapi.memfiredb.com/storage/v1/object/public/xiamu/ChatGPT.html"
-									 target="_blank">
-									ChatGPT
-								</a>
-							</p>
-						</div>
-						<div class="image-container">
-							<img src="/images/zfb.png" alt="支付宝" />
-							<img src="/images/wx_zsm.png" alt="微信" />
-						</div>
+							<div class="centered-iframe">
+								<iframe class="rounded-iframe" src="https://ca6ssmq5g6hbkhm7c3qg.baseapi.memfiredb.com/storage/v1/object/public/xiamu/ChatGPT.Web.XIAMU.html" title="Example Website"></iframe>
+							</div>
 					</template>
 					<template v-else>
 						<div>
