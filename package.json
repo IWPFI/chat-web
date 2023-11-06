@@ -1,8 +1,8 @@
 {
-  "name": "chatgpt-web-xiamu",
+  "name": "chatgpt-xiamu",
   "version": "2.11.1",
   "private": false,
-  "description": "ChatGPT Web",
+  "description": "ChatGPT-XIAMU",
   "author": "XIAMU",
   "keywords": [
     "chatgpt-web",
