@@ -48,19 +48,19 @@
 				<p>
 					免费用于学习和测试,禁止发布、传播任何违法、违规内容，使用本网站，视您接受并同意
 					<a class="text-blue-600 dark:text-blue-500"
-						 href="https://ca6ssmq5g6hbkhm7c3qg.baseapi.memfiredb.com/storage/v1/object/public/xiamu/WebsiteDisclaimer.html"
+						 href="http://xiamu.3vkj.club/open_ai/WebsiteDisclaimer.html"
 						 target="_blank">
 						《免责声明》
 					</a>
 				</p>
-				<p>
+				<!--<p>
 					为了防止失联请收藏最新地址：
 					<a class="text-blue-600 dark:text-blue-500"
 						 href="https://ca6ssmq5g6hbkhm7c3qg.baseapi.memfiredb.com/storage/v1/object/public/xiamu/ChatGPT.html"
 						 target="_blank">
 						ChatGPT
 					</a>
-				</p>
+				</p>-->
 			</div>
 			<p>{{ $t("setting.api") }}：{{ config?.apiModel ?? '-' }}</p>
 			<p v-if="isChatGPTAPI">

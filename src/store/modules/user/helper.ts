@@ -15,7 +15,7 @@ export interface UserState {
 export function defaultSetting(): UserState {
   return {
     userInfo: {
-			avatar: 'https://ca6ssmq5g6hbkhm7c3qg.baseapi.memfiredb.com/storage/v1/object/public/image/xiamu.png',
+			avatar: 'http://xiamu.3vkj.club/image/xiamu.png',
       name: 'XIAMU',
       description: 'ChatGPT-XIAMU',
     },

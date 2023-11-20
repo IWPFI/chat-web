@@ -476,7 +476,7 @@
 						 :class="[isMobile ? 'p-2' : 'p-4']">
 					<template v-if="!dataSources.length">
 							<div class="centered-iframe">
-								<iframe class="rounded-iframe" src="https://ca6ssmq5g6hbkhm7c3qg.baseapi.memfiredb.com/storage/v1/object/public/xiamu/ChatGPT.Web.XIAMU.html" title="Example Website"></iframe>
+								<iframe class="rounded-iframe" src="http://xiamu.3vkj.club/open_ai/ChatGPT.Web.XIAMU.html" title="Example Website"></iframe>
 							</div>
 					</template>
 					<template v-else>
